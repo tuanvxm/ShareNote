@@ -1,0 +1,234 @@
+body {
+    color: #16191f !important;
+    margin: 0 !important;
+    font-size: 12px !important;
+    description: Step labels in multipage create step navigation pane;
+    font-family: "Amazon Ember", "Roboto", "Helvetica Neue", "HelveticaNeue", "Helvetica", "Arial", sans-serif !important;
+    font-weight: 400 !important;
+    line-height: 20px !important;
+    background-color: #f2f3f3 !important;
+}
+
+::placeholder {
+    font-style: italic !important;
+}
+
+.header {
+    height: 64px !important;
+    overflow: hidden;
+    color: white;
+    background-color: #232f3e;
+}
+
+.logo {
+    height: 80px;
+    position: relative;
+    left: -40px;
+    top: -8px;
+}
+
+.logo-text {
+    position: relative;
+    left: -60px;
+    color: #eee;
+    font-size: 28px;
+    font-weight: 300;
+}
+
+.side-bar {
+    border-right: 1px solid rgba(0, 0, 0, 0.12);
+    height: calc(100vh - 65px);
+    background-color: white;
+}
+
+.no-show {
+    display: none !important;
+}
+
+.side-bar-open {
+    width: 284px;
+}
+
+.side-bar-close {
+    min-width: 50px;
+    text-align: center;
+    padding: 12px;
+}
+
+.side-header {
+    padding: 20px 30px 20px 30px;
+    font-size: 18px;
+    line-height: 20px;
+    border-bottom: solid 1px rgba(0, 0, 0, 0.12);
+}
+
+.side-title {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.btn-no-border {
+    border: none;
+    background-color: transparent;
+    padding: 0 !important;
+}
+
+.float-right {
+    float: right;
+}
+
+.side-main {
+    padding: 0 16px;
+}
+
+.btn-add-note {
+    background: #ec7211;
+    color: #fff !important;
+    border-color: transparent !important;
+    border-radius: 2px !important;
+    padding: 5px 20px !important;
+    font-size: 13px !important;
+    position: relative;
+    top: 15px;
+}
+
+.btn-side {
+    position: relative;
+    top: -5px;
+    right: -5px;
+}
+
+.side-filter {
+    padding: 16px 0 10px 0;
+}
+
+.menu-filter.form-control {
+    border-color: rgba(0, 0, 0, 0.12) !important;
+    font-size: 13px !important;
+}
+.menu-filter.form-control:focus {
+    border-color: rgb(22, 115, 177) !important;
+    box-shadow: rgba(22, 115, 177, 0.25) 0px 0px 0px 2px !important;
+    outline: 0px !important;
+}
+
+.side-item {
+    margin: 8px 0;
+    height: 20px;
+}
+
+.btn-link {
+    padding: 0 !important;
+    color: rgb(22, 115, 177) !important;
+    border: none !important;
+    font-size: 15px !important;
+    height: 20px;
+    line-height: 20px;
+}
+
+.btn-link:hover, .btn-link.active {
+    color: rgb(238, 153, 0) !important;
+    cursor: pointer !important;
+    text-decoration: none !important;
+}
+
+.modal-content {
+    border-radius: 2px !important;
+}
+
+.btn-save-note {
+    background: #ec7211;
+    color: #fff !important;
+    border-color: transparent !important;
+    border-radius: 2px !important;
+    padding: 2px 25px !important;
+    font-size: 14px !important;
+}
+
+.btn-cancel {
+    background: transparent;
+    color: #545 !important;
+    border-color: transparent !important;
+    border-radius: 2px !important;
+    padding: 2px 25px !important;
+    font-size: 14px !important;
+}
+
+.btn-cancel:hover {
+    background: transparent;
+    color: #545b64 !important;
+    border-color: #545b64 !important;
+    border-radius: 2px !important;
+    padding: 2px 25px !important;
+}
+
+.form-label {
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 0;
+}
+
+.form-input {
+    font-size: 13px !important;
+    border-radius: 2px !important;
+}
+
+.form-small {
+    margin-top: 0 !important;
+}
+
+.form-err {
+    color: red;
+    font-style: italic !important;
+}
+
+.main.side-open {
+    width: calc(100vw - 284px);
+}
+
+.main.side-close {
+    width: calc(100vw - 55px);
+}
+
+.main-notes {
+    margin-top: 15px;
+}
+
+.notes-sub-header {
+    margin-bottom: 15px;
+}
+
+.about {
+    background: white;
+    margin-top: 15px;
+    height: calc(100vh - 90px);
+}
+
+.notes-item {
+    padding-bottom: 15px;
+}
+
+.card-title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card-text {
+    white-space: pre-line;
+    height: 40px;
+    overflow-y: scroll;
+}
+
+.view-note-title {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.view-note-time {
+    margin-bottom: 15px;
+}
+
+.view-note-content {
+    white-space: pre-line;
+}
